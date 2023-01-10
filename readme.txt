@@ -33,4 +33,4 @@ Flujos y requisitos del sistema
 
 En el main del analizador sintáctico (listas.y) se ha hecho uso de la función 'freopen ("/dev/tty", "a", stdout)'. Esta función es empleada para restablecer el flujo de salida estándar a la terminal del sistema tras haber realizado una redirección de dicho flujo previamente también a través de freopen().
 
-La anterior función es correcta en sistemas GNU/Linux, entorno sobre el que se ha trabajado en la asignatura. Sin embargo, en sistemas con otras bases es posible que no funcione adecuadamente.
+La anterior función es correcta en sistemas GNU/Linux, entorno sobre el que se ha trabajado. Sin embargo, en sistemas con otras bases es posible que no funcione adecuadamente.
